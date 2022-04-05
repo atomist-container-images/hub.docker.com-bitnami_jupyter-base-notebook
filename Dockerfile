@@ -1,6 +1,6 @@
-# Tags: latest, 2.2.2-debian-10-r17, 2.2.2, 2-debian-10, 2
+# Tags: latest, 2.2.2-debian-10-r22, 2.2.2, 2-debian-10, 2
 FROM bitnami/jupyter-base-notebook:latest
-FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r17
+FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r22
 FROM bitnami/jupyter-base-notebook:2.2.2
 FROM bitnami/jupyter-base-notebook:2-debian-10
 FROM bitnami/jupyter-base-notebook:2
@@ -8,11 +8,38 @@ FROM bitnami/jupyter-base-notebook:2
 # Tags: _
 FROM bitnami/jupyter-base-notebook:_
 
-# Tags: 1.5.0-debian-10-r134, 1.5.0, 1-debian-10, 1
-FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r134
+# Tags: 1.5.0-debian-10-r139, 1.5.0, 1-debian-10, 1
+FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r139
 FROM bitnami/jupyter-base-notebook:1.5.0
 FROM bitnami/jupyter-base-notebook:1-debian-10
 FROM bitnami/jupyter-base-notebook:1
+
+# Tags: 2.2.2-debian-10-r21
+FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r21
+
+# Tags: 1.5.0-debian-10-r138
+FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r138
+
+# Tags: 2.2.2-debian-10-r20
+FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r20
+
+# Tags: 1.5.0-debian-10-r137
+FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r137
+
+# Tags: 2.2.2-debian-10-r19
+FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r19
+
+# Tags: 1.5.0-debian-10-r136
+FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r136
+
+# Tags: 2.2.2-debian-10-r18
+FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r18
+
+# Tags: 2.2.2-debian-10-r17
+FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r17
+
+# Tags: 1.5.0-debian-10-r134
+FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r134
 
 # Tags: 2.2.2-debian-10-r16
 FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r16
@@ -169,33 +196,3 @@ FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r110
 
 # Tags: 2.1.1-debian-10-r36
 FROM bitnami/jupyter-base-notebook:2.1.1-debian-10-r36
-
-# Tags: 1.5.0-debian-10-r109
-FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r109
-
-# Tags: 2.1.1-debian-10-r35
-FROM bitnami/jupyter-base-notebook:2.1.1-debian-10-r35
-
-# Tags: 1.5.0-debian-10-r108
-FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r108
-
-# Tags: 2.1.1-debian-10-r34
-FROM bitnami/jupyter-base-notebook:2.1.1-debian-10-r34
-
-# Tags: 1.5.0-debian-10-r107
-FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r107
-
-# Tags: 2.1.1-debian-10-r33
-FROM bitnami/jupyter-base-notebook:2.1.1-debian-10-r33
-
-# Tags: 2.1.1-debian-10-r32
-FROM bitnami/jupyter-base-notebook:2.1.1-debian-10-r32
-
-# Tags: 1.5.0-debian-10-r106
-FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r106
-
-# Tags: 2.1.1-debian-10-r31
-FROM bitnami/jupyter-base-notebook:2.1.1-debian-10-r31
-
-# Tags: 1.5.0-debian-10-r105
-FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r105
