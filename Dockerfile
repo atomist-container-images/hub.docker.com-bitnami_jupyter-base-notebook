@@ -178,6 +178,3 @@ FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r21
 
 # Tags: 1.5.0-debian-10-r138
 FROM bitnami/jupyter-base-notebook:1.5.0-debian-10-r138
-
-# Tags: 2.2.2-debian-10-r20
-FROM bitnami/jupyter-base-notebook:2.2.2-debian-10-r20
